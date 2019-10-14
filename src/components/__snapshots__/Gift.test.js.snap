@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift renders properly 1`] = `
+<div>
+  wemfke
+  <p>
+    dekf
+  </p>
+</div>
+`;
