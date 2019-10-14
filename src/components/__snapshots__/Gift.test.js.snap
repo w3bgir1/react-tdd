@@ -2,9 +2,33 @@
 
 exports[`Gift renders properly 1`] = `
 <div>
-  wemfke
-  <p>
-    dekf
-  </p>
+  <Form
+    inline={false}
+  >
+    <FormGroup>
+      <FormControl
+        className="input-person"
+        onChange={[Function]}
+      />
+      <FormLabel
+        column={false}
+        srOnly={false}
+      >
+        Person
+      </FormLabel>
+    </FormGroup>
+    <FormGroup>
+      <FormControl
+        className="input-present"
+        onChange={[Function]}
+      />
+      <FormLabel
+        column={false}
+        srOnly={false}
+      >
+        Present
+      </FormLabel>
+    </FormGroup>
+  </Form>
 </div>
 `;
