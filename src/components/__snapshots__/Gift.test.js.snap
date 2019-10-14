@@ -29,6 +29,16 @@ exports[`Gift renders properly 1`] = `
         Present
       </FormLabel>
     </FormGroup>
+    <Button
+      active={false}
+      className="btn-remove"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+      variant="primary"
+    >
+      Remove Gift
+    </Button>
   </Form>
 </div>
 `;
