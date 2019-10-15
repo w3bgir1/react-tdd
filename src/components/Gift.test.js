@@ -34,7 +34,7 @@ describe("Gift", () => {
   });
 
   describe("when typing into the present input", () => {
-    const present = "Napkin";
+    const present = "Hat";
     beforeEach(() => {
       gift.find(".input-present").simulate("change", {
         target: {
